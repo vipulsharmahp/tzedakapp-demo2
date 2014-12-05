@@ -1,0 +1,207 @@
+
+@media (max-width:1199px){
+
+    .container{width:90%;}
+    .logo{width:100%; height:auto;}
+    .leftsidebar{width:35%;}
+    .rightsidebar{width:60%; float:right;}
+    .whoare{width:100%; background-size: 100%;}
+    .charitiethumb{width:48%; margin-right:4%}
+    .charitiethumb img{width:100%; height:auto;}
+    .charitiethumb.last{margin-right:0;}
+    ul.newsbox li{width:90%;}
+    ul.newsbox li:last-child{width:10%;}
+    ul.newsbox li input[type="text"]{width:100%;}
+    footer{width:90%;}
+
+
+
+
+}
+
+@media (max-width:1131px){
+
+    ul.clients li{margin-bottom: 20px;}
+    .newsletter h2{font-size:30px;}
+    .startgiving h2{font-size:40px;}
+    .whoare{padding-top:20px;}
+    ul.navi li {
+        margin: 0 31px 0 0;
+    }
+    .whoare{height:auto;}
+
+
+}
+
+@media (max-width:1031px){
+
+    .whoare {
+        padding: 15px;
+    }
+
+    .whoare h2{font-size:35px; line-height:35px;}
+
+
+}
+
+@media (max-width:990px){
+
+    .botomslide {background-size: 100% 50%;}
+    .bannertext h2{clear:both; font-size:35px;}
+    .banner a.donatenow{clear:both;}
+    ul.navi li {
+        margin: 0 11px 0 0;
+    }
+
+
+
+}
+
+@media (max-width:940px){
+
+    .leftsidebar{width:45%;}
+    .rightsidebar{width:50%;}
+
+}
+
+@media (max-width:870px){
+
+    ul.navi li a{font-size:16px;}
+    ul.navi {margin: 13px 15px 0 0;}
+
+}
+
+@media (max-width:767px){
+
+    .logo a {
+        display: table;
+        float: none;
+        height: auto;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .menu-outer {
+        display: table;
+        float: none;
+        height: auto;
+        margin: 20px auto 0 auto;
+        width: auto;
+    }
+
+    ul.navi li a {line-height: 37px;}
+
+    .leftsidebar{width:100%;}
+    .whoare {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .startgiving{width:100%; margin-top: 30px;}
+
+    .rightsidebar{width:100%; margin-bottom:40px;}
+
+    .bannertext{top:20px;}
+    .bannertext h1{font-size:30px; line-height:30px;}
+    .bannertext h2{font-size:25px;}
+    .bannertext h2 span{font-size:40px;}
+
+
+
+}
+
+
+@media (max-width:620px){
+
+    .bannertext h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .bannertext h2 {
+        font-size: 20px;
+    }
+
+    .bannertext h2 span {
+        font-size: 30px;
+    }
+
+    .rightsidebar {
+        padding-top: 20px;
+    }
+
+
+
+}
+
+@media (max-width:567px){
+
+    ul.navi{width:auto; float:none; display:table;}
+    a.action{float:none; display:table; margin:0 auto; width:auto; background:#0080d8 url("../images/action.jpg") repeat-x;}
+    ul.clients li:last-child{margin-right:0;}
+}
+
+@media (max-width:510px){
+
+    .bannertext h1 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .bannertext h2 {
+        font-size: 16px;
+        line-height: 42px;
+    }
+
+
+}
+
+@media (max-width:480px){
+
+    ul.clients {
+        display: table;
+        float: none;
+        margin: 84px auto 0;
+        width: auto;
+    }
+
+    ul.clients li {
+        float: left;
+        width: 100%;
+        margin:0 0 30px 0;
+    }
+
+    .botomslide {
+        background-size: inherit;
+    }
+
+    .charitiethumb {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+
+    .banner img {
+        height: 223px;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:423px){
+
+    .whoare p {
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .whoare h2 {
+        font-size: 29px;
+        line-height: 29px;
+    }
+
+
+
+}

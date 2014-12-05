@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+/* --------------------< Global Style >-------------------- */
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt, u, ul, var { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+table, table td { padding: 0; border: none; border-collapse: collapse; }
+* { border: none; margin: 0; padding: 0; }
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video { display: block; }
+mark, rp, rt, ruby, summary, time { display: inline }
+.clearfix { clear: both; }
+input[type="text"]:focus { }
+.translation_content a:hover, .translation_content a:focus { color:#ffffff;}
+input { -webkit-box-shadow: none; -webkit-border-radius: 0; -webkit-box-shadow: inset none; -webkit-appearance: none; }
+body { padding: 0; margin: 0; width: 100%; height: 100%; display: table;  font: 15px 'HelveticaNormalRegular'; color: #808080; font-weight:normal; }
+a:hover { text-decoration: none; outline: none; }
+a:focus { text-decoration: none; outline: none; }
+.navbar-collapse { padding: 0; }
+.container { padding: 0; }
+.row { margin: 0; }
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 { padding: 0; }
+.btn:focus, .btn:active:focus, .btn.active:focus { outline: none; outline-offset: 0; }
+.btn:active, .btn.active { box-shadow: none; }
+.bootstrap-select .btn:focus { outline: none; outline-offset: 0; }
+.btn-group > .btn:focus, .btn-group-vertical > .btn:focus { outline: none; outline-offset: 0; }
+.bootstrap-select .btn:focus { }
+
+/*===================================
+		webfont
+====================================*/
+@font-face {
+    font-family: 'tungaregular';
+    src: url('../fonts/tunga_1-webfont.eot');
+    src: url('../fonts/tunga_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tunga_1-webfont.woff2') format('woff2'),
+         url('../fonts/tunga_1-webfont.woff') format('woff'),
+         url('../fonts/tunga_1-webfont.ttf') format('truetype'),
+         url('../fonts/tunga_1-webfont.svg#tungaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNormalRegular';
+    src: url('../fonts/helvetica-normal.eot');
+    src: url('../fonts/helvetica-normal.eot') format('embedded-opentype'),
+         url('../fonts/helvetica-normal.woff') format('woff'),
+         url('../fonts/helvetica-normal.ttf') format('truetype'),
+         url('../fonts/helvetica-normal.svg#HelveticaNormalRegular') format('svg');
+}
+@font-face {
+    font-family: 'tungabold';
+    src: url('../fonts/tungab_1-webfont.eot');
+    src: url('../fonts/tungab_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tungab_1-webfont.woff2') format('woff2'),
+         url('../fonts/tungab_1-webfont.woff') format('woff'),
+         url('../fonts/tungab_1-webfont.ttf') format('truetype'),
+         url('../fonts/tungab_1-webfont.svg#tungabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* --------------------< header Style >-------------------- */
+
+.header-main { max-width:1200px; width:100%; margin:0 auto; padding-bottom:20px;}
+ul.navi{padding:0;}
+ul.navi li{ list-style:none;padding:0; display:inline-block;}
+ul.navi li a{ font-size: 18px; color:#000; font-family: 'tungabold'; text-transform:uppercase;}
+ul.navi li a:hover{ color:#ff4e00;}
+
+a.action{ background:url(../img/action.jpg) repeat-x; border-radius:4px; -webkit-border-radius:4px; -o-border-radius:4px;
+-moz-border-radius:4px; color:#fff; font-size:18px;text-align:center;text-transform:uppercase;
+font-family: 'tungabold';}
+.banner{ border-top:5px solid #ff4e00; position:relative;}
+.banner img{ width:100%;}
+.bannertext{ position:absolute; top:40px; left:0; right:0; bottom:0; display:table; text-align:center; margin:0 auto;} 
+.bannertext h1{ font-size:50px; font-family: 'tungabold'; text-transform:uppercase; color:#fff; text-align:center;}
+.bannertext h2{ font-size:40px; color:#fff; text-align:center; font-family: 'tungabold'; font-weight:normal; 
+text-transform:uppercase;}
+.bannertext h2 span{ font-size:70px;}
+a.donatenow{ display:table;background:#ff4e00; color:#fff; margin:0 auto; border-radius:4px; text-transform:uppercase; font-family: 'tungabold'; font-weight:normal; font-size:20px;}
+
+/*================================
+
+===============================*/
+.content-part{ padding-top:32px;}
+
+.whoare{ background:url(../img/img-1.jpg) no-repeat; margin-bottom:27px;}
+.whoare h2{ color:#fff; font-family: 'tungabold'; font-weight:normal; font-size:50px;}
+.whoare h3{ color:#fff; font-size:30px; font-family: 'tungaregular';}
+.whoare p{ border-bottom:3px solid #ff4e00; color:#fff; margin-bottom:10px; font-size:18px; line-height: 23px; font-weight: normal;}
+.whoare a{ text-decoration:none; color:#ff4e00;}
+.whoare a:hover{ color:#fff;}
+
+
+.startgiving{ background:#0090df; color:#fff; margin-bottom:42px;}
+.startgiving img{ margin: 0 0 11px 47px;}
+.startgiving h3{ font-size:30px; font-weight:normal; font-family: 'tungaregular'; line-height: 30px;}
+.startgiving h2{ font-size:45px; font-weight:normal; font-family: 'tungabold';}
+.startgiving p{ font-size:18px; padding-bottom:10px; line-height: 22px;}
+
+.startgiving a{ background:#FFF; color:#0090df; font-size:20px; text-transform:uppercase; font-weight:normal; font-family: 'tungabold'; padding:9px 24px; border-radius:4px; display:table;} 
+
+
+.newsletter h2{font-weight:normal; font-family: 'tungabold'; font-size:35px; color:#000; border-bottom:1px solid #e5e5e5;  }
+.newsletter p{padding-bottom:10px; font-size:18px;}
+ul.newsbox{ }
+ul.newsbox li{ display:inline; margin:0; padding:0;}
+ul.newsbox li input[type="text"]{ border-left:1px solid #bbbbbb; border-top:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb; color:#000000; font-size:16px; width:325px; height: 41px; padding-left: 15px;}
+ul.newsbox li input[type="button"]{ border-left:1px solid #bbbbbb; border-top:1px solid #bbbbbb; border-bottom:1px solid #bbbbbb; color:#000000; font-size:16px; width:34px; height:41px; background:#0090df url(../img/arrow.png) no-repeat center center;}
+
+
+.rightsidebar{ width:710px; float:right;}
+
+.givingmob{ display:block; border-bottom:1px solid #e5e5e5;}
+
+.rightsidebar{ padding-top:52px;}
+.rightsidebar h2{ font-size:30px; font-weight:normal; font-family: 'tungaregular'; color:#000; line-height:20px;}
+.rightsidebar h1{ font-size:50px; font-weight:normal;  font-family: 'tungabold'; color:#000;}  
+.rightsidebar p{ font-size:18px; color:#585858; line-height:23px;}  
+
+ul.mybtn{ width:auto; margin:0; padding:0;}
+ul.mybtn li{ list-style:none; margin:0 38px 0 0; padding:0; display:inline-block;}
+
+a.more{ color:#ff4e00;}
+a.donate{ font-weight:normal; display:block; margin-top:9px; color:#fff; text-transform:uppercase; background:#ff4e00; padding:9px 30px; border-radius:4px; font-family: 'tungabold';}
+/*================================
+	charities
+================================*/
+.charities{ margin:0; padding:0; position:relative;}
+.charities a.prev{ background:url(../img/slide-btn.png) no-repeat left top; width:15px; height:27px; display:block; position:absolute; right:38px; top:0;}
+.charities a.next{background:url(../img/slide-btn.png) no-repeat right top; width:15px; height:27px; display:block; position:absolute; right:0; top:0;}
+
+.charitieslid{ border-top:1px solid #e5e5e5; padding-top:32px;}
+
+.charitiethumb{ width:330px; float:left; margin-right:49px;}
+.charitiethumb img{}
+.charitiethumb h3{ font-weight:normal; font-family: 'tungabold'; font-size:25px; color:#000; padding-bottom:5px; margin-bottom:10px; background:url(../img/row.jpg) no-repeat center bottom; display:block; margin-bottom:11px;}
+.charitiethumb h4{ color:#ff4e00; padding-bottom:10px;}
+.charitiethumb p{ padding-bottom:10px; line-height: 21px;}
+.charitiethumb a{ color:#ff4e00;}
+
+.last{ margin-right:0;}
+
+/*==========================*/
+.botomslide{ background:url(../img/slide-2.jpg) no-repeat top center; padding-bottom:38px; margin-top:90px; text-align:center;}
+.botomslide h4{ color:#ffffff; font-size:35px; font-weight:normal; font-family: 'tungabold';}
+.botomslide p{ color:#fff;}
+.botomslide a{ color:#463d26; border-radius:4px; background:#ffffff; margin-top:22px; text-transform:uppercase; font-family: 'tungabold'; font-weight:normal; }
+.botomslide a:hover{ color:#000;} 
+
+ul.clients{ margin: 84px auto 0; display: table;}
+ul.clients li{ list-style:none; display:inline-block; margin-right:50px;}
+
+footer{ border-top:1px solid #e5e5e5; padding-top:22px; padding-bottom:20px;}
+
+footer p{ color:#000; text-align:center;}
+
+ul.social{ margin:0 auto; padding-bottom:20px; display:table;}
+ul.social li{ margin:0; padding:0; display:inline-block; margin-right:7px;}
+ul.social li a{ width:41px; height:41px; background:url(../img/social.png) no-repeat; display:block;}
+ul.social li a:hover{background:url(../img/social-hover.png) no-repeat;}
+
+ul.social li a.rss{ background-position:0 0}
+ul.social li a.twitt{ background-position:-47px 0}
+ul.social li a.facebook{ background-position:-96px 0}
+ul.social li a.in{ background-position:-144px 0}
+ul.social li a.gplus{ background-position:-192px 0}
+
+
+
+
+
+/*=====================================
+          Changes on 18 Nov 
+=====================================*/
+
+.header-part{width:100%; height:auto; position: relative; float:left; padding: 36px 0 27px 0;}
+.logo{width: 342px;height: 62px;float: left;}
+.logo a{width:100%; height:auto; float:left;}
+.logo a img{width:100%; height:auto; float:left;}
+.banner{clear:both; float:left;margin-bottom: 32px;width: 100%;}
+ul.navi{margin: 13px 36px 0 0;  float:left;}
+ul.navi li{margin: 0 51px 0 0;}
+ul.navi li:last-child{margin-right: 0;}
+a.action{margin-top: 5px; padding:0 20px; height:46px; float:right; line-height: 49px;}
+.menu-outer{width:auto; height:auto; float:right;}
+.bannertext h1{text-shadow: 0px 2px rgba(0, 0, 0, .26); line-height: 50px;margin: 12px 0 0 0;padding: 0;float: left;width: 100%;text-align: center;}
+.bannertext h2{float:left; width:100%; text-align:center; line-height: 58px;margin-bottom: 9px;text-shadow: 0px 2px rgba(0, 0, 0, .26);}
+.banner a.donatenow{margin-top: 9px;  padding: 9px 34px 5px 24px; height: auto; border-bottom: 2px solid #e54600;  }
+.banner a.donatenow:hover{color:#ff4e00; background:#fff; border-bottom:2px solid rgba(0, 0, 0, .2);}
+.whoare{width: 399px; height: 352px; float:left; clear: both; box-sizing: border-box;padding: 48px 29px 15px 40px;} 
+.startgiving{float:left; clear:both;padding: 22px 50px 44px 39px;margin-bottom: 38px;}
+.whoare h2{line-height: 51px;text-shadow: 0px 2px rgba(0, 0, 0, .26);margin-bottom: 5px;}
+.whoare p{padding-bottom: 22px;font-size: 17px;}
+.whoare a{margin-top:2px; float:left;font-size: 18px;line-height: 18px;}
+.leftsidebar{width:399px; height:auto; float:left;}
+.rightsidebar h2{margin-top:2px;}
+.rightsidebar h1{margin-top: 2px;line-height: 50px;margin-bottom: 9px;}
+a.more{font-size:18px; line-height: 49px;float: left; margin-top: 2px;}
+.mybtn a.donate{margin-top:0;}
+ul.mybtn{margin-top:8px;}
+ul.mybtn li, .charities{float:left;}
+ul.mybtn, .givingmob{float:left;padding-bottom: 16px;}
+.givingmob{margin-bottom: 45px;}
+.rightsidebar .charities h1{margin-bottom:2px;}
+.charitieslid{padding-top: 19px}
+.charitiethumb img {margin-bottom: 12px;}
+.charitiethumb a{float:left; margin-top:11px; font-size:18px;}
+.charities a.prev, .charities a.next{top:31px;}
+.startgiving h2{line-height: 40px;padding-bottom: 22px;}
+.startgiving a{float:left; margin-top: 15px}
+.startgiving a{padding: 6px 34px 6px 24px;border:1px solid #fff;}
+.startgiving a:hover{color:#fff; background:transparent;}
+.newsletter h2{padding-bottom: 3px;margin-bottom: 12px;}
+ul.newsbox li{float:left;}
+.newsletter{width:90%; float:left;}
+.botomslide{padding-top: 53px; background-size: 100% auto;}
+.botomslide p{padding-bottom: 15px;}
+.botomslide a{margin-top:27px; padding: 17px 29px 12px 29px; height: auto; line-height: 20px; color:#463d26;font-size: 20px;}
+footer{width:1160px; margin:0 auto;}
+.footer-part{width:100%; float:left; position: relative; padding-bottom: 70px;}
+ul.clients li{height:70px;float: left;}
